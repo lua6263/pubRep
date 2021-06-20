@@ -1,11 +1,10 @@
- import * as React from 'react';
- import { HomeScreen } from './screens/Home/HomeScreen'
+import React, { Component } from 'react';
+import { NavContainer } from './navigation/NavContainer';
 
- const App = () => {
-   return (
-     <HomeScreen />
-   );
- };
+const App = () => {
+    return (
+      <NavContainer />
+    );
+};
 
-
- export default App
+export default App
